@@ -865,7 +865,6 @@ class _TelaDetalhesTreinoState extends State<TelaDetalhesTreino> {
     });
   }
 
-  @override
   void _abrirCadastroExercicio() {
     final nomeCtrl = TextEditingController();
     final musculoCtrl = TextEditingController();
@@ -986,6 +985,7 @@ class _TelaDetalhesTreinoState extends State<TelaDetalhesTreino> {
     );
   }
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
